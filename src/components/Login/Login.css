@@ -1,0 +1,76 @@
+.textMain{
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.login{
+	margin: 0 auto;
+	margin-top: 60px;
+	width: 320px;
+}
+.logo{
+	margin: 0 auto;
+	display: flex;
+	align-self: center;
+	width: 200px;
+
+}
+.logo>.motiv{
+	margin-left: 9px;
+}
+
+.logo>.anim{
+	animation: 2s linear 0s normal none infinite running anim;
+  	-webkit-animation: 2s linear 0s normal none infinite running anim;
+}
+
+.loginMethod{
+	display: flex;
+	margin-top: 60px;
+
+}
+.tab{
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+	border-bottom: 2px solid #B1B1B1;
+	padding-bottom: 4px;
+}
+.active-tab{
+	color:#FF8731;
+	border-bottom: 2px solid #FF8731;
+}
+.sms{
+	width: 40%;
+}
+.password{
+	width: 60%;
+}
+.getPhone{
+	text-decoration: none;
+	font-size: 14px;
+    line-height: 18px;
+    color: #FF8731;
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+}
+
+/*@keyframes anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}*/

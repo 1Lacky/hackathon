@@ -1,0 +1,96 @@
+body{
+    background-color: #E5E5E5;
+}
+.account{
+    background-color: #E5E5E5;
+    width: 360px;
+}
+.news{
+    display: flex;
+    justify-content: center;
+}
+.newsItem{
+    width: 100px;
+    margin: 20px 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.newsItemOne{
+    background: linear-gradient(45deg, #FF626D, #FFBE70);
+}
+.newsItemTwo{
+    background: linear-gradient(45deg, #A4FF7F, #7CFFCD);
+}
+.newsItemFree{
+    background: linear-gradient(45deg, #6E77B6, #42A79D);
+}
+
+.AccountNumbers{
+    display: flex;
+    margin-top:20px;
+    margin-left: 10px;
+    align-items: center;
+}
+.AccountTitle{
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.AccountNumber{
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    color:#1A1A1A;;
+    line-height: 20px;
+    background-color: #FFFFFF;
+    padding: 8px 16px;
+}
+.AccountMoneys{
+    align-items: center;
+    width: 308px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top:10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+.AccountMoney{
+    font-size: 28px;
+    line-height: 35px;
+    color: #1A1A1A;
+}
+.MoneyTitle{
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FF8731;
+}
+.AccountTest{
+    margin: 0 auto;
+    margin-top: 20px;
+padding: 8px 16px;
+width: 308px;
+text-align: center;
+background-color: #FFFFFF;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+}
+.AccountText{
+    display: block;
+    font-size: 16px;
+line-height: 20px;
+color: black;
+margin-bottom: 30px;
+}
+.orngBtn{
+    display: block;
+    color:#FF8731;
+    padding: 8px 16px;
+    border: 2px solid #FF8731;
+    border-radius: 10px;
+    cursor: pointer;
+}

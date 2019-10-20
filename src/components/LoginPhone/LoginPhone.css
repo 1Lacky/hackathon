@@ -1,0 +1,57 @@
+.loginFrom{
+	margin-top: 60px;
+}
+
+.labelInput{
+	font-size: 12px;
+	line-height: 15px;
+	color: #B1B1B1;
+	margin-top:60px;
+}
+.phoneInput{
+	box-sizing: border-box;
+	padding: 10px 10px;
+	border:none;
+	border-bottom: 1px solid #B1B1B1;
+	width: 100%;
+	outline: none;
+    font-size: 18px;
+    color: #1A1A1A;
+}
+
+
+.errorNotPhone{
+	font-size: 12px;
+	color: #FF4D4D;
+	align-self: flex-start;
+}
+
+.nextButton{
+    font-family: 'PT Root UI';
+    cursor: pointer;
+    display: block;
+	text-decoration: none;
+    width: 100%;
+	margin-top: 20px;
+	background-color: #FFB580;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 0;
+	color: white;
+	font-size: 18px;
+	outline: none;
+	text-align: center;
+}
+
+.nextButton:hover{
+	background-color: #FF8731;
+	transition: 0.5s;
+}
+.forgotPassword{
+    font-size: 14px;
+    line-height: 18px;
+    color: #1A1A1A;
+    margin-top: 16px;
+    display: block;
+    text-align: center;
+}
